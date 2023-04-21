@@ -3,11 +3,11 @@ module github.com/flashbots/mev-boost
 go 1.20
 
 require (
-	github.com/ethereum/go-ethereum v1.11.1
+	github.com/ethereum/go-ethereum v1.11.6
 	github.com/flashbots/go-boost-utils v1.2.2
 	github.com/flashbots/go-utils v0.4.8
 	github.com/gorilla/mux v1.8.0
-	github.com/holiman/uint256 v1.2.1
+	github.com/holiman/uint256 v1.2.2-0.20230321075855-87b91420868c
 	github.com/sirupsen/logrus v1.9.0
 	github.com/stretchr/testify v1.8.1
 )
@@ -22,6 +22,7 @@ require (
 	github.com/fatih/color v1.13.0 // indirect
 	github.com/getsentry/sentry-go v0.18.0 // indirect
 	github.com/goccy/go-yaml v1.9.6 // indirect
+	github.com/gofrs/flock v0.8.1 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/klauspost/compress v1.15.15 // indirect
@@ -37,7 +38,7 @@ require (
 	github.com/prysmaticlabs/go-bitfield v0.0.0-20210809151128-385d8c5e3fb7 // indirect
 	github.com/rogpeppe/go-internal v1.9.0 // indirect
 	golang.org/x/exp v0.0.0-20230206171751-46f607a40771 // indirect
-	golang.org/x/text v0.7.0 // indirect
+	golang.org/x/text v0.8.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
 )
@@ -55,7 +56,7 @@ require (
 	github.com/ferranbt/fastssz v0.1.2 // indirect
 	github.com/go-ole/go-ole v1.2.1 // indirect
 	github.com/go-stack/stack v1.8.1 // indirect
-	github.com/golang/snappy v0.0.4 // indirect
+	github.com/golang/snappy v0.0.5-0.20220116011046-fa5810519dcb // indirect
 	github.com/klauspost/cpuid/v2 v2.2.1 // indirect
 	github.com/mattn/go-runewidth v0.0.9 // indirect
 	github.com/minio/sha256-simd v1.0.0 // indirect
@@ -63,7 +64,6 @@ require (
 	github.com/olekukonko/tablewriter v0.0.5 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/prometheus/tsdb v0.7.1 // indirect
 	github.com/shirou/gopsutil v3.21.4-0.20210419000835-c7a38de76ee5+incompatible // indirect
 	github.com/supranational/blst v0.3.8-0.20220526154634-513d2456b344 // indirect
 	github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7 // indirect
@@ -73,7 +73,7 @@ require (
 	go.uber.org/multierr v1.6.0 // indirect
 	go.uber.org/zap v1.23.0 // indirect
 	golang.org/x/crypto v0.1.0 // indirect
-	golang.org/x/sys v0.5.0 // indirect
+	golang.org/x/sys v0.6.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
